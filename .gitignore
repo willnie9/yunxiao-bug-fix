@@ -1,0 +1,42 @@
+# 下载的截图和附件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.zip
+
+# 除了示例资源
+!assets/**/*.png
+!assets/**/*.jpg
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# Node modules（如果添加 JS 工具）
+node_modules/
+
+# Python 缓存（如果添加 Python 脚本）
+__pycache__/
+*.pyc
+*.pyo
+
+# 环境文件
+.env
+.env.local
